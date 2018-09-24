@@ -49,4 +49,5 @@ if ($fidnum = fopen ( 'idnum.json','w' )) {
    }
    fclose ( $fidnum );
 }
+echo '{"code":0,"data":"OK"}';//返回POST状态信息
 ?>
